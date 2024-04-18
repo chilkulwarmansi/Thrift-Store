@@ -1,0 +1,148 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#f4f2f2;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust logo width as needed */
+    height: auto; /* Ensure aspect ratio is maintained */
+    margin-right: 10px; /* Add some spacing between logo and text */
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+}
+
+.top-left div {
+    margin-left: 10px;
+}
+
+nav {
+    color: #090909;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    /* display: inline; */
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Removed margin from last li element */
+}
+
+nav ul li a {
+    color: #100f0f;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #080808;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #0f0f0f;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #fdf8f8;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #f4ebeb;
+}
+
+footer {
+    /* background-color: #333; */
+    color: #0b0707;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.search-icon img,
+.account-icon img,
+.cart-icon img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.search-icon img:hover,
+.account-icon img:hover,
+.cart-icon img:hover {
+    transform: scale(1.1);
+} 
+
+
+
+
+  
+  

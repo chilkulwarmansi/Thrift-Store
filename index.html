@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my shopping website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="top-right">
+                <div class="logo">
+                    <img src="store.png" alt="Thrift Store">
+                    <h1>Thrift Store</h1>
+                </div>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="dresses.html">Dresses</a></li>
+                <li><a href="jeans.html">Jeans</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+            <div class="top-left">
+                <div class="search-icon"><img src="searchicon.png" alt="Search"></div>
+                <div class="account-icon"><a href="login.html"><i class="fas fa-user"></i></a></div>
+                <div class="cart-icon"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Thrifted Clothes and Fashion</h1>
+        <p class="par">Welcome to Thrifted Store! We're your go-to destination for fabulous thrifted fashion! <br>
+            Discover trendy pieces at unbeatable prices, all while doing your part for the planet by shopping sustainably.<br>
+            Join our vibrant thrift-lover community and explore our carefully curated selection of top-notch clothing and accessories. 
+            Dive into our online store today and find your new favorite fashion statement!</p>
+        <button class="cn" onclick="showAlert()">Shop Now</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Thrift Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showAlert() {
+            alert("Welcome to our thrift store!");
+        }
+    </script>
+</body>
+</html>

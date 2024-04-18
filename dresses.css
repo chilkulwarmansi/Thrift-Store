@@ -1,0 +1,83 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f2f2;
+  }
+  
+  /* Centering heading */
+  .heading {
+    text-align: center;
+  }
+  
+  .products {
+    background-color: #f4f2f2; /* Light gray background color */
+    padding: 2rem ;
+    text-align: center; /* Add some padding to the top and bottom */
+  }
+
+  /* Centering products container */
+  .box-container {
+    padding: 1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Styling individual product box */
+  .box {
+    flex: 0 0 calc(25% - 2rem);
+    /* width: 300px; */
+    margin: 10px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* Image styles */
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Title styles */
+  .content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Price styles */
+  .price {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  /* Add to cart button styles */
+  .add-to-cart {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  
